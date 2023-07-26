@@ -1,0 +1,54 @@
+.header {
+  background-image: url('../../assets/Sider-2.png');
+  background-position: center center;
+  height: 350px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .sub_wrapper {
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    padding: 2rem 12rem;
+  }
+
+  .panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+
+    .logo {
+      height: 50px;
+      width: 50px;
+      border-radius: 4px;
+    }
+
+    .interactive_area {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  .navigation {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    .heading {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+    .detail {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+}

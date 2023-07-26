@@ -1,0 +1,19 @@
+.wrapper {
+  .header {
+    background-image: url('../../assets/Sider-2.png');
+    background-position: center center;
+    height: 350px;
+    filter: brightness(50%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .body {
+    min-height: 60vh;
+  }
+
+  .footer {
+    height: 400px;
+    background-color: #012336;
+  }
+}

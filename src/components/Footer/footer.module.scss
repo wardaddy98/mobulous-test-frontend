@@ -1,0 +1,58 @@
+.footer {
+  color: white;
+  .top_section {
+    background-color: #012336;
+    padding: 3rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: flex-start;
+  }
+
+  .bottom_section {
+    background-color: #032b42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+
+    span {
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin: 10px 0;
+    }
+
+    .logo {
+      height: 70px;
+      width: 70px;
+      border-radius: 30%;
+    }
+
+    .button_img {
+      height: 40px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .top_section {
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: auto;
+      align-items: center;
+    }
+  }
+}

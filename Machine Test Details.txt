@@ -1,0 +1,8 @@
+1. Convert HTML to Angular
+2. Create an api for signup and login and use in frontend
+3. Create an api for get user detalis by using jwt token
+4. Create an api for Add, update and delete poducts
+5. Show Product list in cart page
+6. In cart page add product by click on (+ icon) and reduce quantity by click on (- icon)
+7. Show cart quantiy in header dynamically and show added product and total price in order summary
+
